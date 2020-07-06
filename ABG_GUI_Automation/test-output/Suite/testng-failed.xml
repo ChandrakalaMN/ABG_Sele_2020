@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="AVIS.TestScripts.Avis_GUI_Create_Reservation">
+        <methods>
+          <include name="startReport"/>
+        </methods>
+      </class> <!-- AVIS.TestScripts.Avis_GUI_Create_Reservation -->
+      <class name="AVIS.TestScripts.AVIS_GUI_Modify_Reservation">
+        <methods>
+          <include name="test"/>
+          <include name="startReport"/>
+        </methods>
+      </class> <!-- AVIS.TestScripts.AVIS_GUI_Modify_Reservation -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

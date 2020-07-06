@@ -1,0 +1,73 @@
+import java.io.File;
+import java.io.IOException;
+import java.util.concurrent.TimeUnit;
+
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class GUI_Cancel_Reservation {
+
+	public static void main(String[] args) throws InterruptedException, IOException {
+		// TODO Auto-generated method stub
+
+       System.setProperty("webdriver.chrome.driver","C:\\Selenium\\ChromeDriver\\chromedriver.exe");
+		
+		
+		WebDriver driver= new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		
+		driver.get("https://wizardgui-uat.avisbudget.com/wizardgui/WriteToken?token=1c11935e-801a-4c45-ae8f-e3489a7dc257");
+		
+		driver.get("http://wizardgui-uat.avisbudget.com/wizardgui2/ui/wizard.jsf?mnemonic=BOS");
+		driver.manage().window().maximize();
+		driver.findElement(By.xpath("//input[@name='username']")).sendKeys("qa.user");
+		System.out.println("Entered the Username");
+		driver.findElement(By.xpath("//input[@name='PASSWORD']")).sendKeys("Avis0909#");
+		System.out.println("Entered the Password");
+		driver.findElement(By.xpath("//input[@type='SUBMIT']")).click();
+		System.out.println("Clicked on Login Button");
+		driver.findElement(By.xpath("//a[@data-target='#menulist\\:rateshoplink']")).click();
+		System.out.println("Clicked on Rate Shop Tab");
+		// 09829632US1, 09829738US2, 09829756US6, 09829815US2
+		driver.findElement(By.xpath("//input[@id='menulist:rateshopContainer:searchResForm:searchString']")).sendKeys("09826290US5");
+		System.out.println("Entered the existing Reservation number");
+		
+		driver.findElement(By.xpath("//input[@id='menulist:rateshopContainer:searchResForm:searchCommandLink']")).click();
+		System.out.println("Clicked on the Search button");
+		Thread.sleep(5000);
+		driver.findElement(By.xpath("//button[@class='dropdown-toggle']//span[@class='caret']")).click();
+		//driver.findElement(By.xpath("//button[value()='Extras']")).click();
+		System.out.println("Clicked on Extras drop down Button");
+		driver.findElement(By.xpath("//a[@class='rateShopCancelLinkClass ng-binding']")).click();
+		System.out.println("Clicked on Cancel Drop down link");
+		System.out.println(driver.switchTo().alert().getText());
+		driver.switchTo().alert().accept();
+		System.out.println("Clicked on OK");
+		Thread.sleep(3000);
+		//driver.findElement(By.xpath("//form[@id='templateInfoForm']//div[@class='modal-body']")).getText();
+		System.out.println(driver.findElement(By.xpath("//form[@id='templateInfoForm']//div[@class='modal-body']")).getText());
+		
+		File src= ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		FileUtils.copyFile(src,new File("C://Selenium//Screenshots//CancelScreenshot.png"));
+		
+		driver.close();
+		
+		
+		
+		
+		
+	
+		
+		
+	}	
+		
+		
+		
+	}
+
+
+

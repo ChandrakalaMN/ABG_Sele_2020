@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/BDD Jars/cucumber-core-2.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/BDD Jars/cucumber-html-0.2.6.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/BDD Jars/cucumber-java-1.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/BDD Jars/cucumber-junit-1.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/BDD Jars/gherkin-5.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/BDD Jars/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/BDD Jars/jchronic-0.2.6.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/BDD Jars/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/BDD Jars/mockito-all-1.10.19.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/libs/ias-connector-java.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/libs/ias-connector-java1.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/ant-1.7.0.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/ant-launcher-1.7.0.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/bcprov-jdk16-1.46.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/bson-3.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/bson-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/curvesapi-1.03.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/curvesapi-1.04.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/extentreports-2.41.2.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/extentreports-3.0.6.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/gson-2.2.4-sources.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/hamcrest-core-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/hsqldb.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/httpclient-4.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/httpmime-4.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/IU.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/jackcess-2.1.6.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/jackcess-encrypt-2.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/jcommander-1.48.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/jconn3.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/jide-oss-3.5.7.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/jsoup-1.8.3.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/jsoup-1.9.2.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/junit-4.10.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/jxl-2.6.12.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/mongodb-driver-3.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/mongodb-driver-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/mongodb-driver-core-3.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/mongodb-driver-core-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/mysql-connector-java-5.1.41.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/ojdbc6.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/ojdbc8.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/org.eclipse.swt-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/poi-3.16.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/poi-examples-3.16.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/poi-excelant-3.16.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/poi-ooxml-3.16.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/poi-ooxml-schemas-3.16.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/poi-scratchpad-3.16.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/sel_connect.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/selenium-server-standalone-3.9.1.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/sikuli-script.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/snakeyaml-1.15.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/sqlite-jdbc-3.8.11.1.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/swing2swt.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/swingx-all-1.6.4.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/swingx-autocomplete-1.6.4.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/swt.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/testng-6.9.9.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/ucanaccess-4.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/IAS/IAS_Selenium/Packages/Test_Libraries/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/cmn/Downloads/extentreports-3.0.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

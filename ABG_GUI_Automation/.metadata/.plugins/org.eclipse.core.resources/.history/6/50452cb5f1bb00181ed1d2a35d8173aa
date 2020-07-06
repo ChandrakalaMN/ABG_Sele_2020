@@ -1,0 +1,14 @@
+
+#Login Button
+#userid = "name('username')|//div[@class='entry-field']"
+#userid_n = username
+#loginbtn_xp = //*[@id='content']/table/tbody/tr/td[2]/form/table/tbody/tr[3]/td/input[2]
+ 
+@FindBy(xpath="//span[text()='Type']")
+	private WebElement lbl_Type;  
+	
+	
+	
+o
+
+
